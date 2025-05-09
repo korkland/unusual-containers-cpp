@@ -11,4 +11,5 @@ Designed for niche use cases, performance optimization, and systems programming.
 - Overwriting circular buffer
 - Static memory pool linked list
 - Cache-optimized deque
+- Segmented Vector
 ...

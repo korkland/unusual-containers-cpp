@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.12)
+
+project(unusual_containers)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(test_double_buffer_circular_buffer tests/test_double_buffer_circular_buffer.cpp)
+target_include_directories(test_double_buffer_circular_buffer PRIVATE include)
