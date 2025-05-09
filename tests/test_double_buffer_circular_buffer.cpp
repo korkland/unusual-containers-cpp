@@ -13,7 +13,7 @@ int main() {
 
     const int* data = buf.data();
     for (std::size_t i = 0; i < buf.size(); ++i){
-        std::cout << data[0] << " ";
+        std::cout << data[i] << " ";
     }
     std::cout << "\n";
 

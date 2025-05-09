@@ -8,8 +8,8 @@ namespace unusual_containers{
 template <typename T, std::size_t N>
 class DoubleBufferCircularBuffer{
     std::array<T, 2*N> _buffer;
-    std::size_t _head;
-    std::size_t _size;
+    std::size_t _head = 0;
+    std::size_t _size = 0;
 
 public:
     constexpr std::size_t capacity() const noexcept { return N; }
